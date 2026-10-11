@@ -1,0 +1,8 @@
+[Mt. Hood Lighting Fix]
+author=Dan
+description=Fixes the overly-bright lighting on the rider on the Mt. Hood level
+// Changes the light direction to no longer be straight in front of the rider. For binary CRC 3A8E10D7
+patch=1,EE,002d5db0,word,BF800000
+patch=1,EE,002d5db4,word,BF000000
+patch=1,EE,002d5db8,word,00000000
+patch=1,EE,002d5dbc,word,3F800000
