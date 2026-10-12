@@ -1,0 +1,4 @@
+[Enable Entering All Levels (Career Mode)]
+comment=Enable entering all levels, locked or unlocked (from career level select)
+author=Dan 🐔
+patch=1,EE,201AFCBC,extended,14000037
